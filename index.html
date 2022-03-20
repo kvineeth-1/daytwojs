@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div>
+            <div> <pre>
+                1.Var 2.Let 3.Const
+
+
+                var
+                var is a global or Functional Scoped
+                var can be reassigned
+                var can be redeclared
+                var can be modified later
+
+
+                var a=10;
+                var a=20;
+                console.log(a);
+                
+                
+                Let
+                Let  is a Block  Scoped
+                let cannot be reassigned
+                let cannot  be redeclared
+                let can be modified later
+                
+                let a=10;
+                let a=20;    we cannot redeclare, but we can modify like a=20;
+                console.log(a);  
+                
+                Const
+                Const   is a Block  Scoped
+                const cannot be reassigned
+                Const cannot  be redeclared
+                Const  cannot  be modified later
+
+
+                </pre>
+            </div>
+            <div>
+            <pre>
+                Hoisting
+
+                Hoisting is a default Javascript Mechanism where our variables and Functions declarations
+                are moved to top of their Scope before code execution ,only declrations are hoisted not 
+                intilazations.
+
+                console.log(a);
+                var a = 5;
+
+                Temporal Dead Zone
+
+                It is the time between the hoisting and the initialization of variables. 
+
+                let b; 
+                console.log(b); 
+                b = "Food";
+                
+            </pre>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
